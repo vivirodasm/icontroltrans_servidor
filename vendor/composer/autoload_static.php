@@ -44,6 +44,7 @@ class ComposerStaticInit3e4a3a0d09a1ecb589c8cbf15811b457
         'k' => 
         array (
             'kartik\\time\\' => 12,
+            'kartik\\select2\\' => 15,
             'kartik\\base\\' => 12,
         ),
         'd' => 
@@ -153,6 +154,10 @@ class ComposerStaticInit3e4a3a0d09a1ecb589c8cbf15811b457
         'kartik\\time\\' => 
         array (
             0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-timepicker/src',
+        ),
+        'kartik\\select2\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-select2/src',
         ),
         'kartik\\base\\' => 
         array (
