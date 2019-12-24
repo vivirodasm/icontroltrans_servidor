@@ -251,18 +251,18 @@ var nombreEmpresa = "<?php echo $nombreEmpresa;?>";
 	</div>
 	
 	<div class="row">
-	  <div class="col-md-4"><?= $form->field($model, "idtercero")->widget(
-						Chosen::className(), [
-							'items' => [0 => ''],
-							'disableSearch' => 0, // Search input will be disabled while there are fewer than 5 items
-							'multiple' => false,
-							'clientOptions' => [
-								'search_contains' => true,
-								'single_backstroke_delete' => false,
-							],
-                            'placeholder' => 'Seleccione un tercero',
-							'noResultsText' => "Enter para buscar",
-					])?></div>
+	  <div class="col-md-4"><?php // $form->field($model, "idtercero")->widget(
+						// Chosen::className(), [
+							// 'items' => [0 => ''],
+							// 'disableSearch' => 0, // Search input will be disabled while there are fewer than 5 items
+							// 'multiple' => false,
+							// 'clientOptions' => [
+								// 'search_contains' => true,
+								// 'single_backstroke_delete' => false,
+							// ],
+                            // 'placeholder' => 'Seleccione un tercero',
+							// 'noResultsText' => "Enter para buscar",
+					// ])?></div>
 					
 			<?php echo $form->field($model, 'idtercero')->widget(Select2::classname(), [
 			'data' => [],
