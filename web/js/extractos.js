@@ -1,7 +1,7 @@
 $( document ).ready(function() 
 {
 	
-	$("[data-select2-id='tbextractos-idtercero']").prop( "disabled", false );
+	$("[data-select2-id='tbextractos-idtercero']").prop( "disabled", true );
 	// $("[data-select2-id='tbextractos-idtercero']").prop( "disabled", false );
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) 
 	{
