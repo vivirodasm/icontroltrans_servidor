@@ -1,12 +1,12 @@
 $( document ).ready(function() 
 {
 	
-	
+	$("[data-select2-id='tbextractos-idtercero']").prop( "disabled", true );
 	// $("[data-select2-id='tbextractos-idtercero']").prop( "disabled", false );
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) 
 	{
 		console.log('Esto es un dispositivo móvil');
-		$("[data-select2-id='tbextractos-idtercero']").prop( "disabled", false );
+		// $("[data-select2-id='tbextractos-idtercero']").prop( "disabled", false );
 		
 	}
 	
@@ -44,7 +44,7 @@ $( document ).ready(function()
 	});	
 	
 });
-$("[data-select2-id='tbextractos-idtercero']").prop( "disabled", true );
+
 //informacion del contrato
 $("#tbextractos-nrocontrato").change(function() 
 {
