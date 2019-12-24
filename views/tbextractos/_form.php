@@ -267,11 +267,9 @@ var nombreEmpresa = "<?php echo $nombreEmpresa;?>";
 			<?php echo $form->field($model, 'idtercero')->widget(Select2::classname(), [
 			'data' => [],
 			'options' => ['placeholder' => 'Seleccione un tercero'],
-			'language' => [
-				'noResults' => "sin nada", //no message in search
-				],
 			'pluginOptions' => [
-				'allowClear' => true
+				'allowClear' => true,
+				'noResults' => "sin nada",
 			],
 		]);		?>			
 	
